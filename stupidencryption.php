@@ -4,6 +4,7 @@ header("content-type: application/octet-stream");
 //echo pack("H*",bin2hex($str)) . "<br>";
 
 $encrypted_string=base64_encode(pack("H*","1000C57377FE3545A8D68AE30E378D1AF594"));
+$encrypted_string2=base64_encode(pack("H*","100086CCA484E700215BCCC5F4B3CA33C37E"))
 //echo $encrypted_string,PHP_EOL;
 $exe_key=pack("H*","2037EFC6BF08000000EB038D49008BDA");
 $dll_key1=pack("H*","2037EFC675AF8B45D4893481895C8104");
